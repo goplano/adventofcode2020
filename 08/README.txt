@@ -40,6 +40,8 @@ Immediately before the program would run an instruction a second time, the value
 
 Run your copy of the boot code. Immediately before any instruction is executed a second time, what value is in the accumulator?
 
+Your puzzle answer was 1744.
+
 --- Part Two ---
 After some careful analysis, you believe that exactly one instruction is corrupted.
 
@@ -74,3 +76,5 @@ acc +6  | 6
 After the last instruction (acc +6), the program terminates by attempting to run the instruction below the last instruction in the file. With this change, after the program terminates, the accumulator contains the value 8 (acc +1, acc +1, acc +6).
 
 Fix the program so that it terminates normally by changing exactly one jmp (to nop) or nop (to jmp). What is the value of the accumulator after the program terminates?
+
+Your puzzle answer was 1174.

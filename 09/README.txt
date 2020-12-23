@@ -44,6 +44,10 @@ In this example, after the 5-number preamble, almost every number is the sum of 
 
 The first step of attacking the weakness in the XMAS data is to find the first number in the list (after the preamble) which is not the sum of two of the 25 numbers before it. What is the first number that does not have this property?
 
+Your puzzle answer was 731031916.
+
+
+
 --- Part Two ---
 The final step in breaking the XMAS encryption relies on the invalid number you just found: you must find a contiguous set of at least two numbers in your list which sum to the invalid number from step 1.
 
@@ -74,3 +78,5 @@ In this list, adding up all of the numbers from 15 through 40 produces the inval
 To find the encryption weakness, add together the smallest and largest number in this contiguous range; in this example, these are 15 and 47, producing 62.
 
 What is the encryption weakness in your XMAS-encrypted list of numbers?
+
+Your puzzle answer was 93396727.
